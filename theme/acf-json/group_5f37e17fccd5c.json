@@ -1,107 +1,105 @@
-[
-    {
-        "key": "group_5f37e17fccd5c",
-        "title": "Kategoria usług - informacje dodatkowe",
-        "fields": [
-            {
-                "key": "field_5f37e18a4ec4f",
-                "label": "Grafika wyróżniająca",
-                "name": "service_category_featured_image",
-                "type": "image",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "acfe_permissions": "",
-                "acfe_thumbnail": 1,
-                "return_format": "id",
-                "preview_size": "medium",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": "",
-                "uploader": "wp"
+{
+    "key": "group_5f37e17fccd5c",
+    "title": "Kategoria usług - informacje dodatkowe",
+    "fields": [
+        {
+            "key": "field_5f37e18a4ec4f",
+            "label": "Grafika wyróżniająca",
+            "name": "service_category_featured_image",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
             },
-            {
-                "key": "field_5f37e2a831eb0",
-                "label": "Tytuł przycisku",
-                "name": "service_category_button_title",
-                "type": "text",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "acfe_permissions": "",
-                "default_value": "",
-                "placeholder": "",
-                "prepend": "",
-                "append": "",
-                "maxlength": ""
+            "acfe_permissions": "",
+            "acfe_thumbnail": 1,
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "uploader": "wp"
+        },
+        {
+            "key": "field_5f37e2a831eb0",
+            "label": "Tytuł przycisku",
+            "name": "service_category_button_title",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
             },
+            "acfe_permissions": "",
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_5f37ec7f3fc94",
+            "label": "Ikonka",
+            "name": "service_category_icon",
+            "type": "image",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "acfe_permissions": "",
+            "acfe_thumbnail": 0,
+            "return_format": "id",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": "",
+            "uploader": "wp"
+        }
+    ],
+    "location": [
+        [
             {
-                "key": "field_5f37ec7f3fc94",
-                "label": "Ikonka",
-                "name": "service_category_icon",
-                "type": "image",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "acfe_permissions": "",
-                "acfe_thumbnail": 0,
-                "return_format": "id",
-                "preview_size": "medium",
-                "library": "all",
-                "min_width": "",
-                "min_height": "",
-                "min_size": "",
-                "max_width": "",
-                "max_height": "",
-                "max_size": "",
-                "mime_types": "",
-                "uploader": "wp"
+                "param": "taxonomy",
+                "operator": "==",
+                "value": "services_category"
             }
-        ],
-        "location": [
-            [
-                {
-                    "param": "taxonomy",
-                    "operator": "==",
-                    "value": "services_category"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "left",
-        "instruction_placement": "label",
-        "hide_on_screen": "",
-        "active": true,
-        "description": "",
-        "acfe_display_title": "",
-        "acfe_autosync": [
-            "json"
-        ],
-        "acfe_permissions": "",
-        "acfe_form": 0,
-        "acfe_meta": "",
-        "acfe_note": ""
-    }
-]
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "left",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "acfe_display_title": "",
+    "acfe_autosync": [
+        "json"
+    ],
+    "acfe_form": 0,
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1615319457
+}
